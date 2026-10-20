@@ -3,7 +3,7 @@ This is the Counterpact server emulator, last version, written in Zig.
 
 # Requirements
 
-- [Zig (0.17.0)](https://ziglang.org/download/)
+- [Zig (0.18.0)](https://ziglang.org/download/)
 - Linux
 - Brain..? 🧑🏿‍🦯
 

@@ -17,7 +17,7 @@ pub fn handleClient(io: Io, stream: Io.net.Stream) void {
     var conn = stream;
     defer conn.close(io);
 
-    var acc: std.ArrayListUnmanaged(u8) = .empty;
+    var acc: std.ArrayList(u8) = .empty;
     var tmp: [4096]u8 = undefined;
 
     while (true) {
